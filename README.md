@@ -9,6 +9,7 @@ Please find the dataset in the following link: https://www.kaggle.com/camnugent/
 
 ## Results
 Based on the scatter plot in the Scikit Learn notebook, the relationship between the predicted values and the label values are fairly linear for the most part. In addition, the histogram of the residuals (y_test minus predictions) look similar to a normal distribution, indicating that linear regression was a decent choice for this model.
+
 Both the PySpark and Scikit Learn Linear Regression modules resulted in similar Root Mean Squared Errors at $71944 and $69079 respectively. This is within one standard deviation of the median housing price, which is $115396.
 
 Please visit the following link for the resulting images: https://hjmok.github.io/josephmok_portfolio/#/CH
