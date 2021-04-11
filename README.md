@@ -3,7 +3,7 @@
 For this project, a simple Linear Regression Model is created for the 1990 California Housing value dataset. 
 
 ## Dataset and Library
-Two separate models were created. The first one used Scikit Learn's LinearRegression class and second used PySpark's MLLib to get the LinearRegression module.
+Two separate models were created using Scikit Learn's LinearRegression module and PySpark's MLLib to use the LinearRegression module.
 The dataset consisted of 20640 rows of median housing values with 10 columns, as seen in the image below.
 Please find the dataset in the following link: https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv
 
