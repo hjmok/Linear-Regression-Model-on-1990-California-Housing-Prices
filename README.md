@@ -4,8 +4,10 @@ For this project, a simple Linear Regression Model is created for the 1990 Calif
 
 ## Dataset and Library
 Two separate models were created using Scikit Learn's LinearRegression module and PySpark's MLLib to use the LinearRegression module.
-The dataset consisted of 20640 rows of median housing values with 10 columns, as seen in the image below.
-Please find the dataset in the following link: https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv
+The dataset consisted of 20640 rows of median housing values with 10 columns.
+Please find the dataset in the following link: 
+
+https://www.kaggle.com/camnugent/california-housing-prices?select=housing.csv
 
 ## Results
 Based on the scatter plot in the Scikit Learn notebook, the relationship between the predicted values and the label values are fairly linear for the most part. In addition, the histogram of the residuals (y_test minus predictions) look similar to a normal distribution, indicating that linear regression was a decent choice for this model.
